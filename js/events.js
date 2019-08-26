@@ -1,6 +1,6 @@
 //define functions here
 const getIt = function getIt() {
-  $('p').on('click', function() { 
+  $('p').on('click', function() {
     return alert('Hey!')
   }
 );
