@@ -1,17 +1,20 @@
 //define functions here
-function getIt() {
-  $('p').on('click', function(){ return alert('Hey!')});
+const getIt = function getIt() {
+  $('p').on('click', function() { 
+    return alert('Hey!')
+  }
+);
 }
 
-function frameIt() {
+const frameIt = function frameIt() {
   $('img').on('load', this.addClass('tasty'));
 }
 
-function pressIt(){
+const pressIt = function pressIt() {
   $('form > input#typing').on('keydown',(e)=> (e.which === 'G'){alert('You pressed G!')});
 }
 
-function submitIt(){
+const submitIt = function submitIt(){
   $('form').on('submit', ()=>alert("Your form is going to be submitted now."));
 }
 $(document).ready(function(){
