@@ -8,7 +8,7 @@ function frameIt() {
 }
 
 function pressIt(){
-  $('form > input#typing').on('keydown',(e)=> (e.which === 'G'){alert('You pressed G!')});
+  $('form > input#typing').on('keydown',(e)=> (e.which === 'G'){alert('You pressed G!')}));
 }
 
 function submitIt(){
