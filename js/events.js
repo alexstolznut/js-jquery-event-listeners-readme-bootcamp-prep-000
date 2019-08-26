@@ -11,7 +11,7 @@ function frameIt() {
 }
 
 function pressIt(){
-  $('form > input#typing').on('keydown', (e)=> { if (e.key.toUpperCase() === 'G') {
+  $('form > input#typing').on('keydown', (e)=> { if (e.key === 'G') {
     alert('You pressed G!')
   }
 }
